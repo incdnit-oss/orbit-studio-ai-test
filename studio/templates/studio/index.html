@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Orbit is an independent creative studio building identities and digital experiences for what comes next."
+    />
+    <meta name="theme-color" content="#11110f" />
+    <title>Orbit® — Ideas in motion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'studio/style.css' %}" />
+    <script src="{% static 'studio/script.js' %}" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="wordmark" href="#top" aria-label="Orbit home">orbit<span>®</span></a>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#work">Selected work</a>
+          <a href="#about">Studio</a>
+          <a href="#services">What we do</a>
+          <a class="nav-contact" href="mailto:hello@orbit.studio">
+            Let's talk <span aria-hidden="true">↗</span>
+          </a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero section-wrap">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="status-dot"></span> Independent creative studio · Est. 2018</p>
+            <h1>Ideas in<br /><span class="outlined">motion</span><span class="asterisk">*</span></h1>
+            <div class="hero-bottom">
+              <p class="hero-intro">
+                We build brands and digital experiences for people moving the world forward.
+              </p>
+              <a class="round-link" href="#work" aria-label="Explore selected work">
+                <span>Explore<br />our work</span>
+                <span class="round-arrow" aria-hidden="true">↓</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-art" aria-label="Abstract animated artwork">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="orbit orbit-three"></div>
+            <div class="art-core"></div>
+            <div class="art-spark spark-one">✳</div>
+            <div class="art-spark spark-two">✳</div>
+            <div class="art-caption"><span>FIG. 01</span><span>Always in progress</span></div>
+          </div>
+          <div class="hero-index"><span>01</span><span class="index-line"></span><span>04</span></div>
+        </section>
+
+        <section class="ticker" aria-label="Our approach">
+          <div class="ticker-track">
+            <span>Make it matter</span><i>✳</i><span>Stay curious</span><i>✳</i>
+            <span>Make it matter</span><i>✳</i><span>Stay curious</span><i>✳</i>
+            <span>Make it matter</span><i>✳</i><span>Stay curious</span><i>✳</i>
+          </div>
+        </section>
+
+        <section class="work section-wrap" id="work">
+          <div class="section-heading reveal">
+            <p class="eyebrow">01 / Selected work</p>
+            <h2>Good work.<br /><span>Good energy.</span></h2>
+            <p class="section-note">A few recent collaborations with people we believe in.</p>
+          </div>
+          <div class="project-grid">
+            <a class="project-card project-wide reveal" href="mailto:hello@orbit.studio?subject=Tell%20me%20about%20KIN">
+              <div class="project-visual visual-kin">
+                <div class="kin-sun"></div>
+                <span class="kin-word">KIN</span>
+                <span class="project-arrow">↗</span>
+                <span class="visual-label">KIN / WELLNESS, 2025</span>
+              </div>
+              <div class="project-meta"><h3>Room to feel more.</h3><span>Strategy · Identity · Digital</span></div>
+            </a>
+            <a class="project-card reveal" href="mailto:hello@orbit.studio?subject=Tell%20me%20about%20FORM">
+              <div class="project-visual visual-form">
+                <div class="form-shape shape-a"></div><div class="form-shape shape-b"></div>
+                <span class="form-word">FORM<br />FOLLOWS<br />FEELING.</span>
+                <span class="project-arrow">↗</span>
+                <span class="visual-label">FORM / OBJECTS, 2024</span>
+              </div>
+              <div class="project-meta"><h3>Objects with intention.</h3><span>Identity · Art direction</span></div>
+            </a>
+            <a class="project-card reveal" href="mailto:hello@orbit.studio?subject=Tell%20me%20about%20FIELDNOTE">
+              <div class="project-visual visual-field">
+                <div class="field-lines"></div>
+                <span class="field-stamp">FIELD<br />NOTE<br /><b>№ 08</b></span>
+                <span class="project-arrow">↗</span>
+                <span class="visual-label">FIELDNOTE / OUTDOORS, 2024</span>
+              </div>
+              <div class="project-meta"><h3>Find your own way.</h3><span>Strategy · Identity · Campaign</span></div>
+            </a>
+          </div>
+          <a class="text-link reveal" href="mailto:hello@orbit.studio">Have a project in mind? <span>Let's make it real ↗</span></a>
+        </section>
+
+        <section class="about" id="about">
+          <div class="section-wrap about-inner">
+            <div class="about-top reveal">
+              <p class="eyebrow">02 / A little about us</p>
+              <span class="about-mark" aria-hidden="true">O</span>
+            </div>
+            <h2 class="about-statement reveal">
+              We find the <span class="highlight">interesting</span> in the ordinary, then make it impossible to ignore.
+            </h2>
+            <div class="about-bottom reveal">
+              <p>Orbit is a small, independent studio partnering with ambitious people to make thoughtful things with staying power.</p>
+              <a class="circle-cta" href="mailto:hello@orbit.studio" aria-label="Get to know the studio">Get to<br />know us <span>↗</span></a>
+            </div>
+          </div>
+        </section>
+
+        <section class="services section-wrap" id="services">
+          <div class="services-heading reveal">
+            <p class="eyebrow">03 / What we do</p>
+            <h2>Built to<br />move you.</h2>
+          </div>
+          <div class="service-list">
+            <div class="service-row reveal"><span class="service-number">01</span><h3>Brand strategy</h3><span class="service-detail">Positioning · Naming · Voice</span><span class="service-plus">↗</span></div>
+            <div class="service-row reveal"><span class="service-number">02</span><h3>Visual identity</h3><span class="service-detail">Identity systems · Art direction</span><span class="service-plus">↗</span></div>
+            <div class="service-row reveal"><span class="service-number">03</span><h3>Digital experiences</h3><span class="service-detail">Websites · E-commerce · Motion</span><span class="service-plus">↗</span></div>
+            <div class="service-row reveal"><span class="service-number">04</span><h3>Campaigns & content</h3><span class="service-detail">Creative · Photography · Film</span><span class="service-plus">↗</span></div>
+          </div>
+        </section>
+
+        <section class="contact section-wrap reveal">
+          <p class="eyebrow"><span class="status-dot"></span> Available for select projects</p>
+          <h2>Got a good<br />feeling<span>?</span></h2>
+          <a class="contact-link" href="mailto:hello@orbit.studio">hello@orbit.studio <span>↗</span></a>
+          <div class="contact-orb" aria-hidden="true"></div>
+        </section>
+      </main>
+
+      <footer class="site-footer section-wrap">
+        <a class="wordmark" href="#top">orbit<span>®</span></a>
+        <p>Independent by nature. Together by design.</p>
+        <div class="footer-links">
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram ↗</a>
+          <span>© Orbit Studio 2025</span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
